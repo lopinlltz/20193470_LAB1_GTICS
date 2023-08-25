@@ -2,9 +2,37 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <title>Iquitos</title>
+        <link th:href="@{/bootstrap.min.css}" rel="stylesheet"/>
+        <link th:href="@{/style.css}" rel="stylesheet"/>
     </head>
     <body>
+        <header>
+            <div class="navbar-container">
+                <nav class="navbar">
+                    <div class="nav-search">
+                        <form>
+                            <input aria-label="buscar" type="text" placeholder="Encuentra tus vuelos preferidos">
+                        </form>
+                    </div>
+                    <div class="nav-buttons">
+                        <a class="btn btn-success" href="#">Explorar</a>
+                        <a class="btn btn-dark" href="#">Mis vuelos</a>
+                        <a class="btn btn-dark" href="#">Inicia sesión</a>
+                    </div>
+
+                    <div class="nav-link">
+                        <a href="#">Vuelos</a>
+                        <a href="#">Paquetes</a>
+                        <a href="#">Hoteles</a>
+                        <a href="#">Autos</a>
+                        <a href="#">Seguros</a>
+                        <a href="#">Upgrade</a>
+                        <a href="#">Centro de ayuda</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
     </body>
 </html>
