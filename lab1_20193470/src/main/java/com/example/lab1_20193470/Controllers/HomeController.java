@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class HomeController {
-    @GetMapping(value = "/principal")
+    @RequestMapping(value = "/principal")
     public String principal () {
-        return "principal";
+        return "paginaprincipal";
     }
 }
